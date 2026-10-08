@@ -1,0 +1,15 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/ashafiq16/ashafiq16.github.io/refs/heads/main/GASDESW.csv"
+  },
+  "title": {"text": "US Diesel Sale Price 1994-2026"},
+  "width": 300,
+  "height": 300,
+  "mark": {"type": "line", "color": "red"},
+  "encoding": {
+    "x": {"field": "date", "type": "temporal"},
+    "y": {"field": "value", "type": "quantitative"}
+  },
+  "config": {}
+}
